@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css"/>
+        <link rel="stylesheet" href="./app.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
+        <title>ഡെവലപ്പർ ജാതകം</title>
+<style>
+.chilanka
+{
+    font-family: 'Chilanka', cursive;
+}
+</style>
+    </head>
+    <body class="git container-fluid">
+        <div>
+            <div class="topnav">
+                <a href="./gitfind.html" class="chilanka"><b>ജാതക പൊരുത്തം</b></a>
+                <a class="active chilanka" href="./profile.html" class="chilanka"><b>ജാതകം</b></a>
+                <a href="./index.html" class="chilanka"><b>ഹോം</b></a>
+            </div>
+            <h2 class="chilanka" style="color:black;font-weight:600;text-align: center;margin-top: 40px;"><i class="fa fa-search" style="font-size:28px;"></i>ജാതകം നോക്കൽ</h2>
+            
+            <div class="row" id="clear1">
+            <div class="col">
+                <div>
+                    <div class="form-group text-center">
+                        <form id="user-form">
+                            <input placeholder="യൂസർനെയിം അടിക്കുക" type="text" id="username" class="form-control" required>
+                            <div id="match-list"></div>
+                            </br>
+                            <input type="submit" value="കണ്ടു പിടിക്കുക" class="btn btn-primary text-center">
+                            <div id="loading"></div>
+                            <div id="user-list"></div>
+                        </form>
+                    </div>
+                </div>
+            </div></div>
+
+            
+        </div>
+
+    </body>
+    <script src="./profile.js"></script>
+</html>
