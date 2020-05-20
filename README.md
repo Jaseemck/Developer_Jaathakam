@@ -8,7 +8,7 @@ This is one of the funny side project i have done recently. BTW this has nothing
 * Github API
 * netlify
 
-Complete Documentation - [CLICK HERE](https://medium.com/techcrush/developer-jaathakam-3a771c919f33)
+Write-up on the project - [CLICK HERE](https://medium.com/techcrush/developer-jaathakam-3a771c919f33)
 
 Deployed Web Application - [CLICK HERE](https://silly-roentgen-e39060.netlify.app)(Valid for 1 year from 20.05.20)
 

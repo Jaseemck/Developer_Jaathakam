@@ -27,9 +27,9 @@ class finder
     addUserToList(data,repos,c)
         {
             const list = document.querySelector(c);
-            let image = document.createElement('img')
-            image.src = data.avatar_url
-  	    image.width = 150
+            //let image = document.createElement('img')
+            //image.src = data.avatar_url
+  	    //image.width = 150
             const table = document.createElement('table');
             table.className="table border table-striped mt-5";
             let stars = 0
@@ -41,7 +41,9 @@ class finder
             
             table.innerHTML = `
                 <div id="class">
-                
+                <tr>
+                    <td><img src="${data.avatar_url}" width="150"></td>
+                </tr>
                 <tr>
                     <td style="color:black";><b>Name :</b> ${data.name}</td>
                 </tr>
@@ -75,7 +77,7 @@ class finder
                 </tr>
                 </div>
             `;
-            list.appendChild(image);
+            //list.appendChild(image);
             list.appendChild(table);
         }
 
