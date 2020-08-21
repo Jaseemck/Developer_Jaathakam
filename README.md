@@ -1,7 +1,9 @@
 # Developer_Jaathakam
-Github Profile Comparison Application
+## Github Profile Comparison Application
 
-This is one of the funny side project i have done recently. BTW this has nothing to do with horoscope. A scoring is fixed based on some parameters of the github profile and is used for rating and profile comparison.
+![](https://github.com/Jaseemck/Developer_Jaathakam/blob/master/gitprog.png)
+
+BTW this has nothing to do with horoscope. A scoring is fixed based on some parameters of the github profile and is used for rating and profile comparison.
 
 * Vanilla JS
 * Bootstrap
@@ -16,6 +18,6 @@ I believe no project is fully completed. Every project has space to improve. But
 
 <Feel free to contact me and contribute to the project>
 
-Jaseem ck
 #The_incomplete_projects
+
 #Keep_Coding_Keep_Innovating
